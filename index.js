@@ -108,5 +108,8 @@ class FileServer {
     
 } 
 
-FileServer.server().listen(2101);
+const port = 2101;
+FileServer.server().listen(port);
+console.log(`Listening on port ${port}`);
+
 
